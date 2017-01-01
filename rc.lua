@@ -342,3 +342,6 @@ client.connect_signal("manage", function (c, startup)
 	end
 end)
 -- }}}
+
+awful.util.spawn_with_shell('xtrlock')
+awful.util.spawn_with_shell('xautolock -time 2 -locker xtrlock')
