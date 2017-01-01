@@ -200,7 +200,7 @@ globalkeys = awful.util.table.join(
 
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
-    awful.key({ modkey,           }, "g",      function () awful.util.spawn(browser) end),
+    awful.key({ modkey,           }, "q",      function () awful.util.spawn(browser) end),
     awful.key({ modkey,           }, "e",      function () awful.util.spawn(explorer) end),
     awful.key({ modkey,           }, "w",      function () awful.util.spawn(win) end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
