@@ -43,6 +43,7 @@ beautiful.init("/usr/share/awesome/themes/default/theme.lua")
 -- This is used later as the default terminal and editor to run.
 terminal = "gnome-terminal"
 browser = "google-chrome-stable"
+sound = "pavucontrol"
 explorer = "nautilus"
 win = "VBoxManage startvm bili --type=sdl"
 editor = "nvim"
@@ -146,6 +147,7 @@ end),
 -- Standard program
 awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
 awful.key({ modkey,           }, "q",      function () awful.util.spawn(browser) end),
+awful.key({ modkey,           }, "s",      function () awful.util.spawn(sound) end),
 awful.key({ modkey,           }, "e",      function () awful.util.spawn(explorer) end),
 awful.key({ modkey,           }, "w",      function () awful.util.spawn(win) end),
 awful.key({ modkey, "Control" }, "r", awesome.restart),
