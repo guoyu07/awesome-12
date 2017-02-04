@@ -45,7 +45,7 @@ terminal = "gnome-terminal"
 browser = "google-chrome-stable"
 sound = "pavucontrol"
 explorer = "nautilus"
-win = "VBoxManage startvm bili --type=sdl"
+win = "VBoxManage startvm w7 --type=sdl"
 editor = "nvim"
 editor_cmd = terminal .. " -e " .. editor
 
