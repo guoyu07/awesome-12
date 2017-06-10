@@ -347,3 +347,4 @@ end)
 
 awful.util.spawn_with_shell('xtrlock')
 awful.util.spawn_with_shell('xautolock -time 2 -locker xtrlock')
+awful.util.spawn_with_shell('blueman-applet')
